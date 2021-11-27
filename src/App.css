@@ -9,6 +9,10 @@
   color: #fff;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 .coin-app{
   display: flex;
   flex-direction: column;
@@ -42,4 +46,18 @@
   #7918f2 48%,
   #4801ff 100%);
   color: white;
+}
+
+/*small phones, tablets, large smart phones*/
+@media (max-width: 768px) {
+  .coin-market_cap{
+    visibility: hidden;
+  }
+  
+}
+
+@media (max-width:425px) {
+  .coin-search{
+    padding-left: 25px;
+  }
 }
